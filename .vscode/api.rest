@@ -1,0 +1,4 @@
+@baseUrl = https://django-cloudrun-r332fcqfqa-uc.a.run.app/api/kitchenful/recipes/tag
+
+GET {{baseUrl}}/14
+###
