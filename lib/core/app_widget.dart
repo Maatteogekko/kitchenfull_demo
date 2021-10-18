@@ -9,7 +9,7 @@ class AppWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Kitchenfull Recipes',
-
+      debugShowCheckedModeBanner: false,
       home: RecipesListPage(),
 
       // theming
