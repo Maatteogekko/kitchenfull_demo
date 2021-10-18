@@ -13,6 +13,7 @@ class RecipeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
+      margin: const EdgeInsets.all(32),
       clipBehavior: Clip.antiAlias,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Column(
@@ -39,7 +40,7 @@ class RecipeCard extends StatelessWidget {
                     children: [
                       Text(
                         recipe.name,
-                        style: TextStyle(
+                        style: const TextStyle(
                           fontSize: 18,
                         ),
                       ),
@@ -58,7 +59,7 @@ class RecipeCard extends StatelessWidget {
                 // TODO
                 IconButton(
                   onPressed: () {},
-                  icon: Icon(Icons.bookmark_outline),
+                  icon: const Icon(Icons.bookmark_outline),
                 )
               ],
             ),
